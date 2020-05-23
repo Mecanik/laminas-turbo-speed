@@ -1,12 +1,12 @@
 # Laminas Turbo Speed - Laminas Speed Optimization Module
- [![Latest Stable Version](https://poser.pugx.org/mecanik/zf3turbo/v/stable)](https://packagist.org/packages/mecanik/zf3turbo)
- [![License](https://poser.pugx.org/mecanik/zf3turbo/license)](https://packagist.org/packages/mecanik/zf3turbo)
- [![Total Downloads](https://poser.pugx.org/mecanik/zf3turbo/downloads)](https://packagist.org/packages/mecanik/zf3turbo)
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) 
+[![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) 
+[![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) 
+[![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
  
 Description
 ------------
-Module to supercharge your Laminas website performance by minifying/compressing HTML, inline content and pushing assets via HTTP/2. This module works for HTML5 type for now, do not use with XHTML.
-
+Out of the box module to supercharge your Laminas website performance by minifying/compressing HTML inline content and pushing assets via HTTP/2. This module works for HTML5 type for now, do not use with XHTML.
 
 ### Current Features:
 * Events registered via ListenerAggregateInterface
@@ -21,7 +21,7 @@ Module to supercharge your Laminas website performance by minifying/compressing 
 * PHP 7 friendly (and recommended)
 * Does not "break" your pages/content
 * Superfast processing, no cpu overhead (regex patterns have been optimised to be very fast)
-* No other dependencies (than Zend Framework 3)
+* No other dependencies (than Laminas)
 
 ### Planned Features:
 * Caching via Redis
@@ -131,5 +131,10 @@ Load the module (in any order):
 ```
 'Mecanik\LaminasTurboSpeed'
 ```
+
+Notes on HTTP/2
+----------------
+
+You must have a basic understanding on how HTTP/2 Push works. That being said, it will only push assets that are on your own website, with the base being either "public" or "public_html". (for now).
 
 That's all for now, enjoy!
