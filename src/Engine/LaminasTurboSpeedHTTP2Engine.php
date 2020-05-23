@@ -56,7 +56,7 @@ class LaminasTurboSpeedHTTP2Engine
 		{
 			$no_hostame_url = parse_url($mm[1], PHP_URL_PATH);
 
-			if (is_readable('./public'.$no_hostame_url))  {
+			if (is_readable('./public'.$no_hostame_url) || is_readable('./public_html/'.$no_hostame_url))  {
 				$this->pushable_items[] = "<$no_hostame_url>; rel=preload; as=style";		 
 			} 
 			else
@@ -74,7 +74,7 @@ class LaminasTurboSpeedHTTP2Engine
 		{
 			$no_hostame_url = parse_url($mm[1], PHP_URL_PATH);
 
-			if (is_readable('./public'.$no_hostame_url))  {
+			if (is_readable('./public'.$no_hostame_url) || is_readable('./public_html/'.$no_hostame_url))  {
 				$this->pushable_items[] = "<$no_hostame_url>; rel=preload; as=script";		 
 			} 
 			else
@@ -92,7 +92,7 @@ class LaminasTurboSpeedHTTP2Engine
 		{
 			$no_hostame_url = parse_url($mm[1], PHP_URL_PATH);
 
-			if (is_readable('./public'.$no_hostame_url))  {
+			if (is_readable('./public'.$no_hostame_url) || is_readable('./public_html/'.$no_hostame_url))  {
 				$this->pushable_items[] = "<$no_hostame_url>; rel=preload; as=image";		 
 			} 
 			else
