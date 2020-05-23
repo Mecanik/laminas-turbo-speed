@@ -1,8 +1,8 @@
 # Laminas Turbo Speed - Laminas Speed Optimization Module
-[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) 
-[![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) 
-[![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) 
-[![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](https://poser.pugx.org/mecanik/laminas-turbo-speed/v)](//packagist.org/packages/mecanik/laminas-turbo-speed)
+[![Total Downloads](https://poser.pugx.org/mecanik/laminas-turbo-speed/downloads)](//packagist.org/packages/mecanik/laminas-turbo-speed)
+[![Latest Unstable Version](https://poser.pugx.org/mecanik/laminas-turbo-speed/v/unstable)](//packagist.org/packages/mecanik/laminas-turbo-speed)
+[![License](https://poser.pugx.org/mecanik/laminas-turbo-speed/license)](//packagist.org/packages/mecanik/laminas-turbo-speed)
  
 Description
 ------------
